@@ -5,6 +5,11 @@
   overflow: hidden;
   height: 100px;
 }
+#about p{
+  justify-content: center;
+  text-align: center;
+  margin: 1rem;
+}
 .projects .project {
   flex-direction: column;
 }
