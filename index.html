@@ -29,6 +29,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
+<<<<<<< HEAD
 
   <body>
     <header class="bg-dark">
@@ -167,5 +168,77 @@
         </ul>
       </div>
     </footer>
+=======
+  <body>  
+    <div class="container">
+      <div class="navbar">
+        <div class="navbar-name"><p>Çağatay Ferit Çoban</p></div>
+        <nav>
+          <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </a></li>
+
+            <li><a href="#"> Anasayfa </a></li>
+            <li><a href="#"> Hakkımda </a></li>
+            <li><a href="#"> Projeler </a></li>
+            <li><a href="#"> İletişim </a></li>
+           </ul>
+          <ul>
+          <li class="hideMobile"><a href="#"> Anasayfa </a></li>
+          <li class="hideMobile"><a href="#"> Hakkımda </a></li>
+          <li class="hideMobile"><a href="#"> Projeler </a></li>
+          <li class="hideMobile"><a href="#"> İletişim </a></li>
+          <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+         </ul>
+        </nav>
+        <div class="social-media">
+          <a href=""
+            ><i
+              class="fa fa-google"
+              aria-hidden="true"
+              style="color: #1d242b; padding-right: 10px"
+            ></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/%C3%A7a%C4%9Fatay-ferit-%C3%A7oban-1896931b9/"
+            target="_blank"
+            ><i
+              class="fa fa-linkedin-square"
+              style="color: #1d242b; padding-right: 10px"
+            ></i
+          ></a>
+          <a href="https://github.com/CagatayFeritCoban" target="_blank">
+            <i
+              class="fa fa-github"
+              style="color: #1d242b; padding-right: 10px"
+            ></i
+          ></a>
+        </div>
+      </div>
+    <main>
+
+        <div class="card">
+          <div class="card-image">
+            <img src="/assets/img/undraw_programming_re_kg9v.svg" alt="">
+          </div>
+          <div class="card-text">
+            <h1 class="about-header">Hakkımda!</h1>
+            <p>
+              Merhaba! Ben Çağatay, 21 yaşındayım. Antalya Bilim Üniversitesi'nde Bilgisayar Programcılığı 2. sınıf öğrencisiyim vekendimi web alanında geliştiriyorum. Hobilerim arasında websitesi tasarlamak, tasarladığım siteleri kodlamak bulunuyor ve zamanımın çoğunu Web Geliştirme üzerine odaklanarak geçiriyorum. Ayrıca, C# ve veritabanı konusunda da biraz deneyime sahibim. İnsanlarla iletişim kurmayı severim ve yeni şeyler öğrenmeye her zaman açığım.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+<script>
+  function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display ="flex"
+  }
+  function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display ="none"
+  }
+</script>
+>>>>>>> 75de684 (F)
   </body>
 </html>
