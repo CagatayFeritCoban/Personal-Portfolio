@@ -5,20 +5,11 @@
   overflow: hidden;
   height: 100px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> e22fb68 (08.03.24)
 #about p{
   justify-content: center;
   text-align: center;
   margin: 1rem;
 }
-<<<<<<< HEAD
-=======
->>>>>>> 8cccebb (08.03.24)
-=======
->>>>>>> e22fb68 (08.03.24)
 .projects .project {
   flex-direction: column;
 }
