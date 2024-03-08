@@ -3,9 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 8cccebb (08.03.24)
+=======
+>>>>>>> e22fb68 (08.03.24)
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
@@ -14,12 +17,18 @@ a {
   color: #ffffff;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /* Navbar Section */
 
 =======
 /* Navbar Section */
 >>>>>>> 8cccebb (08.03.24)
+=======
+
+/* Navbar Section */
+
+>>>>>>> e22fb68 (08.03.24)
 #navbar {
   color: #ffffff;
   display: flex;
@@ -29,9 +38,13 @@ a {
   height: 70px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 8cccebb (08.03.24)
+=======
+
+>>>>>>> e22fb68 (08.03.24)
 #navbar ul {
   list-style-type: none;
   display: flex;
@@ -56,9 +69,12 @@ a {
   border-bottom: 1px solid gray;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 8cccebb (08.03.24)
+=======
+>>>>>>> e22fb68 (08.03.24)
 #home img {
   max-width: 100%;
   height: 250px;
@@ -72,6 +88,7 @@ a {
 }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* About Section */
 
@@ -115,6 +132,13 @@ body {
 /* About Section */
 #about p {
 >>>>>>> 8cccebb (08.03.24)
+=======
+/* About Section */
+
+#about p{
+  text-align: center;
+  display:flex;
+>>>>>>> e22fb68 (08.03.24)
   padding: 1rem;
   letter-spacing: 0.5px;
   font-weight: 400;
@@ -124,9 +148,13 @@ body {
 
 /* Project Section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 8cccebb (08.03.24)
+=======
+
+>>>>>>> e22fb68 (08.03.24)
 #projects {
   color: #353839;
 }
@@ -178,9 +206,13 @@ body {
 
 /* Contact */
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 8cccebb (08.03.24)
+=======
+
+>>>>>>> e22fb68 (08.03.24)
 #contact {
   color: #ffffff;
   padding: 1rem;
@@ -207,6 +239,9 @@ body {
   font-size: 2rem;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e22fb68 (08.03.24)
 
 .typewriter {
   color: #353839;
@@ -228,6 +263,10 @@ body {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: rgb(0, 0, 0) }
+<<<<<<< HEAD
 }
 =======
 >>>>>>> 8cccebb (08.03.24)
+=======
+}
+>>>>>>> e22fb68 (08.03.24)
