@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* Navbar Section */
+#navbar {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  height: 70px;
+}
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+#navbar ul li a {
+  padding: 0.75rem;
+  transition: 0.7s, 0.7s;
+}
+#navbar ul li a:hover {
+  background-color: #353839;
+  border-radius: 2px;
+}
+
+/* Home Section */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid gray;
+}
+
+#home img {
+  max-width: 100%;
+  height: 250px;
+  border-radius: 100%;
+}
+#home .name h2 {
+  margin-bottom: 0.75rem;
+}
+#home .name p {
+  opacity: 0.6;
+}
+
+/* About Section */
+#about p {
+  padding: 1rem;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0px 30rem;
+}
+
+/* Project Section */
+#projects {
+  color: #353839;
+}
+#project .container {
+  padding: 1rem;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.projects .project {
+  display: flex;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.projects .project .project-image {
+  width: 350px;
+  margin-right: 0.5rem;
+  position: relative;
+}
+.projects .project .project-image img {
+  border-radius: 5px;
+}
+.projects .project .project-image span {
+  background-color: #ffffff;
+  color: #353839;
+  padding: 0.25rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 2px solid black;
+}
+.projects .project .project-info .title {
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+.projects .project .project-info .description {
+  letter-spacing: 1.2px;
+  margin-bottom: 0.25rem;
+  opacity: 0.6;
+}
+.projects .project .project-info .instructor {
+  letter-spacing: 1.2px;
+  opacity: 0.6;
+  margin-bottom: 0.25rem;
+}
+
+/* Contact */
+#contact {
+  color: #ffffff;
+  padding: 1rem;
+}
+
+#contact .contact-form {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+#contact button {
+  border: 0px;
+}
+#contact .contact-form ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 1rem;
+  align-self: center;
+}
+#contact .contact-form ul li a {
+  padding: 1rem;
+  font-size: 2rem;
+}
