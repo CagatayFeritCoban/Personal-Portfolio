@@ -5,11 +5,14 @@
   overflow: hidden;
   height: 100px;
 }
+<<<<<<< HEAD
 #about p{
   justify-content: center;
   text-align: center;
   margin: 1rem;
 }
+=======
+>>>>>>> 8cccebb (08.03.24)
 .projects .project {
   flex-direction: column;
 }
