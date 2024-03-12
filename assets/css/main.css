@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
@@ -14,19 +15,29 @@ a {
 
 #navbar {
   color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0 0.75rem;
   height: 70px;
 }
 
 #navbar ul {
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #navbar ul li a {
   padding: 0.75rem;
+  -webkit-transition: 0.7s, 0.7s;
+  -o-transition: 0.7s, 0.7s;
   transition: 0.7s, 0.7s;
 }
 #navbar ul li a:hover {
@@ -37,10 +48,19 @@ a {
 /* Home Section */
 
 #home {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 2rem;
   border-bottom: 1px solid gray;
 }
@@ -61,6 +81,8 @@ a {
 
 #about p{
   text-align: center;
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
   padding: 1rem;
   letter-spacing: 0.5px;
@@ -78,11 +100,18 @@ a {
   padding: 1rem;
 }
 .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 1rem;
 }
 .projects .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
@@ -131,17 +160,26 @@ a {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 #contact button {
   border: 0px;
 }
 #contact .contact-form ul {
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 1rem;
-  align-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 #contact .contact-form ul li a {
   padding: 1rem;
@@ -155,14 +193,27 @@ a {
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .15em;
-  animation: 
+  -webkit-animation: 
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
+          animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@-webkit-keyframes typing {
+  from { width: 0 }
+  to { width: 75% }
 }
 
 @keyframes typing {
   from { width: 0 }
   to { width: 75% }
+}
+
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(0, 0, 0) }
 }
 
 @keyframes blink-caret {
