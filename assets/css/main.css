@@ -123,6 +123,8 @@ a {
 }
 .projects .project .project-image img {
   border-radius: 5px;
+  width: 20rem;
+  height: 20rem;
 }
 .projects .project .project-image span {
   background-color: #ffffff;
