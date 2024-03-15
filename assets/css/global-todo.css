@@ -1,0 +1,19 @@
+.font-large{  
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+.font-medium{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.font-small{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style:  normal;
+}
+.light-text{
+    color:#ebebeb
+}

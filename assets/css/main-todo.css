@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.67);
+}
+*:focus{
+  outline: 0;
+}
+.title {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+/* .task-list {
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+} */
+.container {
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  margin: 5%;
+  flex-direction: column;
+  width: 60rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(50, 50, 50);
+}
+.txtTaskName {
+  width: 15rem;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #ebebeb;
+}
+
+.btnAddNewTask {
+  width: 7rem;
+  color: #ffffff;
+  border: none;
+  background: #e62048;
+  font-size: 1rem;
+  padding: 1.4rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.task-list {
+  margin: 5%;
+  width: 75%;
+  height: 100%;
+  padding: 1rem;
+  background-color: rgba(50, 50, 50);
+  font-size: 1.10rem;
+}
+ul{
+  margin: 0;
+}
+li{
+  list-style-type: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.task-checkbox{
+  padding:1rem;
+  border: non;
+}
+.dropdown-toggle::after{
+  display: none;
+}
+.dropdown-toggle{
+  color: #ffffff;
+}
+.task{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task label.checked{
+  text-decoration: line-through;
+}
+.btn{
+  border-radius: 0;
+}
+.btnClear{
+  width: 100%;
+  color: #ffffff;
+  border: none;
+  background: #e62048;
+  font-size: 1rem;
+  margin:0;
+  padding: 1.4rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.filters span.active {
+  color: #e62048;
+}
+
+.filters span {
+  margin-right: 5px;
+  font-size: 15px;
+  column-rule-color: #e62048;
+  color: #ffffff;
+  cursor: pointer;
+}
+.filters{
+  margin-bottom: 2rem;
+
+}
